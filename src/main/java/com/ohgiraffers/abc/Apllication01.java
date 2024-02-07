@@ -4,24 +4,13 @@ public class Apllication01 {
 
     public static void main(String[] args) {
 
-        int y =5;
-        char c = 'A';
+        int age= 20;
+        System.out.println("age = " + age);
 
-        System.out.println(++c);
+        String name = "이도아";
+        String name2 = "천재";
+        System.out.println("문자열 합치기 : "+ name + name2);
 
-
-        int x = 2;
-        System.out.println(y += 10 - x);
-        System.out.println('C'-c);
-
-        System.out.println(y >= 5 || x < 0 && x > 2);
-        System.out.println(y += 10 - x++);
-        System.out.println(x+=2);
-        System.out.println( !('A' <= c && c <='Z') );
-        System.out.println('C'-c);
-
-        int num = 888;
-        System.out.println(num/100*100+1);
 
 
 
